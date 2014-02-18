@@ -545,9 +545,19 @@ p {
 .dark {
 	background: #ff0066;
   color:white;
-  
+  color:#303440;
 	/* border-bottom: 6px solid #FA9EC3; */
 
+}
+
+.dark h1, .dark h2{
+  color:white;
+}
+
+.dark .form-control{
+  border-color: white;
+  background-color: #303440;
+  color:white;
 }
 
 .darker {
@@ -580,6 +590,10 @@ section{
   padding: 80px 0;
 }
 
+
+.text-default, .text-default:hover{
+  color:white;
+}
 .text-danger{
   color:#ff0066;; 
   /* transition: all .5s ease; */
@@ -598,4 +612,51 @@ section{
 
 .text-success:hover{
   color: #77FF8C;
+}
+
+
+#redes-sociales a{
+  display: block;
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+       -o-transition: all .5s ease;
+          transition: all .5s ease;
+  -webkit-transform-origin: 50% 0%;
+     -moz-transform-origin: 50% 0%;
+      -ms-transform-origin: 50% 0%;
+       -o-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+
+}
+
+#redes-sociales .fa{
+  padding-bottom: .3em;
+}
+#redes-sociales a .name{
+  display: block;
+-webkit-transform: scale(0);
+   -moz-transform: scale(0);
+    -ms-transform: scale(0);
+     -o-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+       -o-transition: all .5s ease;
+          transition: all .5s ease;
+}
+#redes-sociales a:hover{
+  -webkit-transform: scale(.5);
+     -moz-transform: scale(.5);
+      -ms-transform: scale(.5);
+       -o-transform: scale(.5);
+          transform: scale(.5);
+}
+#redes-sociales a:hover .name{
+  -webkit-transform: scale(2);
+     -moz-transform: scale(2);
+      -ms-transform: scale(2);
+       -o-transform: scale(2);
+          transform: scale(2);
 }
