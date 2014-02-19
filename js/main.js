@@ -15,4 +15,20 @@ $(function(){
 	// To destroy it, call the destroy method:
 	// pp.destroyPointPoint(); 
 
+
+    //smooth scrolling
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash,
+	    $target = $(target),
+	    marginTop = 50;
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top - marginTop
+	    }, 1000, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+
 });
