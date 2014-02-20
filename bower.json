@@ -1,0 +1,21 @@
+{
+  "name": "NeatNait web",
+  "version": "0.0.0",
+  "description": "NeatNait web",
+  "authors": [
+    "Ruben Utrilla Utrilla",
+    "Álvaro Cerdá Pinot"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.0.0"
+  }
+}
