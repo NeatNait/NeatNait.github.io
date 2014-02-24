@@ -25,5 +25,8 @@
     "grunt-cli": "~0.1.13",
     "grunt": "~0.4.2",
     "grunt-browser-sync": "~0.6.0"
+  },
+  "dependencies": {
+    "express": "~3.4.8"
   }
 }
