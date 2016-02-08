@@ -134,7 +134,7 @@ textarea {
 }
 
 .right{
-    text-align:right;   
+    text-align:right;
 }
 
 /* ==========================================================================
@@ -242,11 +242,11 @@ textarea {
 		opacity: 1;
 		-webkit-transform: scale(1.05);
 	}
-	
+
 	70% {
 		-webkit-transform: scale(.9);
 	}
-	
+
 	100% {
 		-webkit-transform: scale(1);
 	}
@@ -257,16 +257,16 @@ textarea {
 		opacity: 0;
 		-moz-transform: scale(.3);
 	}
-	
+
 	50% {
 		opacity: 1;
 		-moz-transform: scale(1.05);
 	}
-	
+
 	70% {
 		-moz-transform: scale(.9);
 	}
-	
+
 	100% {
 		-moz-transform: scale(1);
 	}
@@ -277,16 +277,16 @@ textarea {
 		opacity: 0;
 		-o-transform: scale(.3);
 	}
-	
+
 	50% {
 		opacity: 1;
 		-o-transform: scale(1.05);
 	}
-	
+
 	70% {
 		-o-transform: scale(.9);
 	}
-	
+
 	100% {
 		-o-transform: scale(1);
 	}
@@ -297,16 +297,16 @@ textarea {
 		opacity: 0;
 		transform: scale(.3);
 	}
-	
+
 	50% {
 		opacity: 1;
 		transform: scale(1.05);
 	}
-	
+
 	70% {
 		transform: scale(.9);
 	}
-	
+
 	100% {
 		transform: scale(1);
 	}
@@ -395,7 +395,7 @@ textarea {
   z-index: 2;
   display: block;
   opacity: 1;
-  
+
   -webkit-transform: rotateY(180deg) translate3d(0,0,0);
   -moz-transform: rotateY(180deg) translate3d(0,0,0);
   -ms-transform: rotateY(180deg) translate3d(0,0,0);
@@ -489,14 +489,14 @@ textarea {
 }
 
 footer {
-    padding:1.5em;   
+    padding:1.5em;
     margin:0;
     box-sizing:border-box;
     color:#62677b;
 }
 
 .big-button {
-    
+
     background:#111;
     text-decoration:none;
     padding:.2em .55em;
@@ -526,7 +526,7 @@ h1 {
 }
 
 .break {
-    
+
 }
 
 
@@ -607,7 +607,7 @@ p {
         -ms-transition: all .5s ease;
          -o-transition: all .5s ease;
             transition: all .5s ease;
-}    
+}
 .form-control:-moz-placeholder {
     /* FF 4-18 */
     color: #fff;
@@ -627,7 +627,7 @@ p {
         -ms-transition: all .5s ease;
          -o-transition: all .5s ease;
             transition: all .5s ease;
-}    
+}
 .form-control:-ms-input-placeholder {
     /* IE 10+ */
     color: #fff;
@@ -642,7 +642,7 @@ p {
 .form-control:focus::-webkit-input-placeholder {
   color:#ff0066;
   opacity: 1;
-}    
+}
 .form-control:focus:-moz-placeholder {
     /* FF 4-18 */
   color:#ff0066;
@@ -652,7 +652,7 @@ p {
     /* FF 19+ */
   color:#ff0066;
   opacity: 1;
-}    
+}
 .form-control:focus:-ms-input-placeholder {
     /* IE 10+ */
   color:#ff0066;
@@ -676,7 +676,7 @@ form .btn-default:hover {
   background-color: #ff0066;
   border-color: white;
   color: white;
-  
+
 }
 
 
@@ -792,3 +792,15 @@ section{
   text-shadow: none; /* Firefox */
 }
 
+
+html, body{
+  height: 100%;
+}
+
+body {
+  background: url(../img/neatnait-logo.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
